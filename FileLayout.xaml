@@ -1,0 +1,229 @@
+<Patterns xmlns="urn:schemas-jetbrains-com:member-reordering-patterns">
+    <TypePattern DisplayName="Default">
+        <Entry DisplayName="Interfaces" Priority="1700">
+            <Entry.Match>
+                <And>
+                    <Kind Is="Interface" />
+                </And>
+            </Entry.Match>
+            <Entry.SortBy>
+                <Access />
+                <Static />
+                <Readonly />
+                <Name/>
+            </Entry.SortBy>
+        </Entry>
+
+        <Entry DisplayName="Classes" Priority="1600">
+            <Entry.Match>
+                <And>
+                    <Kind Is="Class" />
+                </And>
+            </Entry.Match>
+            <Entry.SortBy>
+                <Access />
+                <Static />
+                <Readonly />
+                <Name/>
+            </Entry.SortBy>
+        </Entry>
+
+        <Entry DisplayName="Structs" Priority="1500">
+            <Entry.Match>
+                <And>
+                    <Kind Is="Struct" />
+                </And>
+            </Entry.Match>
+            <Entry.SortBy>
+                <Access />
+                <Static />
+                <Readonly />
+                <Name/>
+            </Entry.SortBy>
+        </Entry>
+        
+        <Entry DisplayName="Enums" Priority="1400">
+            <Entry.Match>
+                <And>
+                    <Kind Is="Enum" />
+                </And>
+            </Entry.Match>
+            <Entry.SortBy>
+                <Access />
+                <Static />
+                <Readonly />
+                <Name/>
+            </Entry.SortBy>            
+        </Entry>
+        
+        <Entry DisplayName="Constants" Priority="1300">
+            <Entry.Match>
+                <And>
+                    <Kind Is="Constant" />
+                </And>
+            </Entry.Match>
+            <Entry.SortBy>
+                <Access />
+                <Static />
+                <Readonly />
+                <Name/>
+            </Entry.SortBy>
+        </Entry>
+        
+        <Entry DisplayName="Fields" Priority="1200">
+            <Entry.Match>
+                <And>
+                    <Kind Is="Field" />
+                </And>
+            </Entry.Match>
+            <Entry.SortBy>
+                <Access />
+                <Static />
+                <Readonly />
+                <Name/>
+            </Entry.SortBy>
+        </Entry>
+        
+        <Entry DisplayName="Delegates" Priority="1100">
+            <Entry.Match>
+                <And>
+                    <Kind Is="Delegate" />
+                </And>
+            </Entry.Match>
+            <Entry.SortBy>
+                <Access />
+                <Static />
+                <Readonly />
+                <Name/>
+            </Entry.SortBy>
+        </Entry>
+        
+        <Entry DisplayName="Events" Priority="1000">
+            <Entry.Match>
+                <And>
+                    <Kind Is="Event" />
+                </And>
+            </Entry.Match>
+            <Entry.SortBy>
+                <Access />
+                <Static />
+                <Readonly />
+                <Name/>
+            </Entry.SortBy>
+        </Entry>
+        
+        <Entry DisplayName="Properties" Priority="900">
+            <Entry.Match>
+                <And>
+                    <Kind Is="Property" />
+                </And>
+            </Entry.Match>
+            <Entry.SortBy>
+                <Access />
+                <Static />
+                <Readonly />
+                <Name/>
+            </Entry.SortBy>
+        </Entry>
+        
+        <Entry DisplayName="Indexers" Priority="800">
+            <Entry.Match>
+                <And>
+                    <Kind Is="Indexer" />
+                </And>
+            </Entry.Match>
+            <Entry.SortBy>
+                <Access />
+                <Static />
+                <Readonly />
+                <Name/>
+            </Entry.SortBy>
+        </Entry>
+        
+        <Entry DisplayName="Constructors" Priority="700">
+            <Entry.Match>
+                <And>
+                    <Kind Is="Constructor" />
+                </And>
+            </Entry.Match>
+            <Entry.SortBy>
+                <Access />
+                <Static />
+                <Readonly />
+                <Name/>
+            </Entry.SortBy>
+        </Entry>
+        
+        <Entry DisplayName="Operators" Priority="600">
+            <Entry.Match>
+                <And>
+                    <Kind Is="Operator" />
+                </And>
+            </Entry.Match>
+            <Entry.SortBy>
+                <Access />
+                <Static />
+                <Readonly />
+                <Name/>
+            </Entry.SortBy>
+        </Entry>
+        
+        <Entry DisplayName="Methods" Priority="500">
+            <Entry.Match>
+                <And>
+                    <Kind Is="Method" />
+                </And>
+            </Entry.Match>
+            <Entry.SortBy>
+                <Access />
+                <Static />
+                <Readonly />
+                <Name/>
+            </Entry.SortBy>
+        </Entry>
+        
+        <Entry DisplayName="ToString Method" Priority="400">
+            <Entry.Match>
+                <And>
+                    <Access Is="Public"/>
+                    <Kind Is="Method" />
+                    <Name Is="ToString" />
+                </And>
+            </Entry.Match>
+        </Entry>
+        
+        <Entry DisplayName="GetHashCode Method" Priority="300">
+            <Entry.Match>
+                <And>
+                    <Access Is="Public"/>
+                    <Kind Is="Method" />
+                    <Name Is="GetHashCode" />
+                </And>
+            </Entry.Match>
+        </Entry>
+        
+        <Entry DisplayName="Equals Method" Priority="200">
+            <Entry.Match>
+                <And>
+                    <Access Is="Public"/>
+                    <Kind Is="Method" />
+                    <Name Is="Equals" />
+                </And>
+            </Entry.Match>
+        </Entry>
+        
+        <Entry DisplayName="Destructors" Priority="100">
+            <Entry.Match>
+                <And>
+                    <Kind Is="Destructor" />
+                </And>
+            </Entry.Match>
+            <Entry.SortBy>
+                <Access />
+                <Static />
+                <Readonly />
+                <Name/>
+            </Entry.SortBy>
+        </Entry>
+    </TypePattern>
+</Patterns>
